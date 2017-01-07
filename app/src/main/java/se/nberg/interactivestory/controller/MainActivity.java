@@ -41,5 +41,9 @@ public class MainActivity extends AppCompatActivity {
         startStory(name);
     }
 
-
+    @Override
+    protected void onResume() {
+        super.onResume();
+        mNameField.setText("");
+    }
 }
