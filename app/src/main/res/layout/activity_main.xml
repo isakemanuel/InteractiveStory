@@ -8,7 +8,7 @@
     tools:context="se.nberg.interactivestory.controller.MainActivity">
 
     <Button
-        android:text="Start your adventure"
+        android:text="@string/start_adventure_button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
@@ -25,7 +25,7 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:id="@+id/nameEditText"
-        android:hint="Name"
+        android:hint="@string/name_edit_text"
         android:maxLength="30" />
 
     <ImageView
@@ -35,7 +35,7 @@
         android:id="@+id/titleImageView"
         android:scaleType="centerCrop"
         android:adjustViewBounds="true"
-        android:contentDescription="Title Image"
+        android:contentDescription="@string/content_description_title_image"
         android:layout_alignParentTop="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
