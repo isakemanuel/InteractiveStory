@@ -73,8 +73,8 @@ public class StoryActivity extends AppCompatActivity {
             });
         } else {
             mChoice1.setVisibility(View.INVISIBLE);
-            mChoice1.setText("Play again");
-            mChoice1.setOnClickListener(new View.OnClickListener() {
+            mChoice2.setText("Play again");
+            mChoice2.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
                     finish();
