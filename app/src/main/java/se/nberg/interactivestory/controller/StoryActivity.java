@@ -8,6 +8,8 @@ import android.util.Log;
 import se.nberg.interactivestory.R;
 
 public class StoryActivity extends AppCompatActivity {
+
+
     public static final String TAG = StoryActivity.class.getSimpleName();
 
     @Override
