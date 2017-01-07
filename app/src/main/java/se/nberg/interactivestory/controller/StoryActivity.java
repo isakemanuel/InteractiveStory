@@ -54,7 +54,7 @@ public class StoryActivity extends AppCompatActivity {
         pageText = String.format(pageText, mName);
         mTextView.setText(pageText);
 
-        if (mCurrentPage.isFinal()) {
+        if (!mCurrentPage.isFinal()) {
             mChoice1.setText(mCurrentPage.getChoice1().getText());
             mChoice2.setText(mCurrentPage.getChoice2().getText());
             mChoice1.setOnClickListener(new View.OnClickListener() {
