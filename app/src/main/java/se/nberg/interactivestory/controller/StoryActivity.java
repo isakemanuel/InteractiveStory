@@ -1,10 +1,11 @@
-package se.nberg.interactivestory;
+package se.nberg.interactivestory.controller;
 
 import android.content.Intent;
-import android.nfc.Tag;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
+
+import se.nberg.interactivestory.R;
 
 public class StoryActivity extends AppCompatActivity {
     public static final String TAG = StoryActivity.class.getSimpleName();
